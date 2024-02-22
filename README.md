@@ -85,15 +85,15 @@ Create a new file named `.env.local` in the root of your project and add the fol
 
 ```env
 #NEXT
-NEXT_PUBLIC_SERVER_URL=
+NEXT_PUBLIC_SERVER_URL=https://imaginary-sable.vercel.app
 
 #MONGODB
-MONGODB_URL=
+MONGODB_URL=mongodb+srv://dhanush:dhanush@cluster0.l90ujd9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 
 #CLERK
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-WEBHOOK_SECRET=
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_cmVsYXRlZC1iaXNvbi04NC5jbGVyay5hY2NvdW50cy5kZXYk
+CLERK_SECRET_KEY=sk_test_HWDlhAldTn0CpQeWFw7Ae6sPTjl5a3sMaT1ULaJHFd
+WEBHOOK_SECRET=whsec_2SP84unOJLJybMfzSz2Xtywcbypgb27Q
 
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
@@ -101,14 +101,14 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
 
 #CLOUDINARY
-NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=
-CLOUDINARY_API_KEY=
-CLOUDINARY_API_SECRET=
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=dynbpeeyv
+CLOUDINARY_API_KEY=642668355665639
+CLOUDINARY_API_SECRET=y54tns_QHJyh5croqOd3GwvCPxs
 
 #STRIPE
-STRIPE_SECRET_KEY=
-STRIPE_WEBHOOK_SECRET=
-NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
+STRIPE_SECRET_KEY=sk_test_51OmiKFSBAmpMDzB63c22lUXbxA9P0373sw9avj7XIJ7MpX32ma7Hx1zq6fhq31zvX2zT3hZ7kNLhuDOkdfnsX5TI00gNosheOC
+STRIPE_WEBHOOK_SECRET=whsec_7zfIlxsyJTBis4hoIIbu8412fZirS2bh
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_51OmiKFSBAmpMDzB6H9WdWkjT6MhqhLda1BO0U6WBizqV1CGefrFFxSZbAuzWYXkJZpSt0MFSdB67roelwmWG2coN00yxB5TT0Q
 ```
 
 Replace the placeholder values with your actual respective account credentials. You can obtain these credentials by signing up on the [Clerk](https://clerk.com/), [MongoDB](https://www.mongodb.com/), [Cloudinary](https://cloudinary.com/) and [Stripe](https://stripe.com)
